@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv("main_data.csv", parse_dates=["order_purchase_timestamp", 
+df = pd.read_csv("dashboard/main_data.csv", parse_dates=["order_purchase_timestamp", 
                                                     "order_delivered_customer_date", 
                                                     "order_estimated_delivery_date"])
 
